@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "datalinx",
+  "private_key_id": "78ab4669df71cf0061795ae63cfe7c6ed5c9dc0a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCyfM/ElGRPRDRD\ndMVC4CcMErjgsRtvvoHcr5f8HfkO/bs9LNJsdU0WuiPhbybcTMSK6C6td3wvQ396\nbkQf3v/Per3a/UsKJDdF+8JBo3IYc7XNl+NAzjbgfBIO+D+DeU0p3m2/YcJmypPJ\nCDXbOrOFBIgeINpiAjws59/tOhzzT168oRXdxOhmNAhVYXYY1EFwfgEK4QWTy9bC\nNU8cm/RlDWSI8iGXEy0QRv1ozf9KHlUT4kwCbYkd1meUR46ENQXOZe/SblkYrObu\nZwVF9A0Kny77Ps3r+Qs/K/NG1tDxUFsc0ICqviCBkhUkyDLbysTMMZOWMU/4c3j9\nx6mQblOPAgMBAAECggEACXe4vFBewxxMEBPz7r3dybR93V/8+OrIZVYPICQlikJd\nRJEfFvpgkhxiO4VeMKtbID8mqAmW1cRP0RpjlLPgf+Hz4NeKER9Qq0P/zuQw8NPF\nHgMOM+l8XGCtwzYvMEsmk6+lGf9r2htUHC10+zcG6hRjyq1VctjJgQb1CCwKoxae\nFoBscCr/HJLTwP2Y/tHp92mUZjqmHK4wpFXaYH3TY3VaAOS4k7nCbNuIISAyfWzD\n1zk+FOG/5QwrfFIkjyIz7XTUKmSCmwUEH9ZOQSih4HxX88v4aAzG7tCWTyjUr/TL\nl3C2ni93bF3Ek6mhL1MlYF3y1jcn+JCGufLCDrjiKQKBgQD6EGE88n3k0y3IAZKS\n/BvxfhXTA9OGypig5YAVgKGWanFpr8esBcoqyoj32VSNw8/eN6Pm1sdy+V03Gmb4\n05jqsGxkqAxPTfmHt2dM4nQBMELbTvuiu+hj05cSE7qSNY7JEBWoM3cvU+D5WYQR\nCqdi7XMrz1EDGn06ywZLpbdvGwKBgQC2uXeSxPoJ6h8X3ObFuSoN0WZzaUk3pjLL\nPZt40Rtwz2Bxr8A8C7NVyOZUKRCoBalqanZp00SHZHZmnXLYHjq5Rgdd6MSxSR7m\nxhm1bvKH1LLY2q+zRkQ6dj7oPR170mbnIvizFqEuUAsgWkLqfdN6v1lOW9PXW1ww\ng+V5mFCQnQKBgGFLXDoVc2xDyk1GZ1wvIUQttZobpAKO8yGvCc3T9YsLsULYtMy2\nl/lcQjyE38Qkys0AQxI+wO14Ho+hAy2PTrEJobLsO5XjldH7RwMAHPiVaX3g1kFz\n8TBeFCphaLcYhYyvaG3AUIAml6MM9DiZN5VjI+uIx1F4zf7BHZrzSFK/AoGANUwr\n4JesBzBPGXrJpWq5JYaqx4cyYBUOQ9IYg0kbI/CZRQ/qlpkjGiabaHkB7sCYBf4/\nw+Zn2sYm8w+B7CAFKP2QMIgwtzWI2e92mEFgZNZZxH8lOLmKNTNAbiVFcFSSx2Cg\nAjzbjtKyLCGn2xYQlYEy33RRekOfxFb0nF8dQNECgYEAqStNqen34Fn2zuea/01a\n8LONTNj0YTdbQ/aIWAQoJ2MpXavsshAYJ9B+WLF7s9CiJgPDU7Y5u/YhAwSC1vea\nUBKBAnO7ksdWhZr/83gPmtx+FYBFIXo7nR+DMT6DqcVj0VXjaFig83GRgdLqQQgX\nnhTa+cJjCEZAp5lSZeofr2g=\n-----END PRIVATE KEY-----\n",
+  "client_email": "frontendstorage@datalinx.iam.gserviceaccount.com",
+  "client_id": "103495777327281569104",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/frontendstorage%40datalinx.iam.gserviceaccount.com"
+}

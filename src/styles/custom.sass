@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap')
+@import './colors-datalink.sass'
+
+// Bootstrap config
+$theme-colors: ('primary': $primary)
+$font-size-base: 0.875rem
+$font-family-sans-serif: 'Open Sans', 'Roboto', 'Helvetica', sans-serif
+
+// Buttons
+$btn-focus-box-shadow: 0
+
+@import '~bootstrap/scss/bootstrap.scss'
+
+// Custom global
+*
+  outline: none !important
+body
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+code
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
+#main, body
+  margin: 0 auto
+  max-width: 1920px
+  min-width: 360px
+.open-setting
+  height: 500px
+  @media (max-width: 768px)
+    height: auto
+.close-setting
+  height: 80px
+.o-unset
+  overflow: unset !important
+.cursor:hover
+  cursor: pointer
+.danger-switch.custom-control.custom-switch
+  .custom-control-input:checked ~ .custom-control-label::before
+    background-color: $red
+.info-switch.custom-control.custom-switch
+  .custom-control-input:checked ~ .custom-control-label::before
+    background-color: $primary
+
+// General
+.profile-photo
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  border-radius: 50%
+  display: block
+  margin: 0
+.logo-white
+  left: 8%
+  position: absolute
+  top: 5%
+  @media ( max-width: 600px )
+    left: 0
+    margin-bottom: 15px
+    position: relative
+    top: 0
+.less-ico::after
+  content: url('../assets/images/icons/arrow_less.svg')
+.more-ico::after
+  content: url('../assets/images/icons/arrow_more.svg')
+.less-ico::after,.more-ico::after
+  bottom: 1px
+  margin: 0 0 0 3px
+  position: relative
+.help-checkbox
+  margin: 0 3px
+  position: relative
+  top: 2px
+.dl-button
+  padding: 0.7rem 0
+.content-center
+  align-items: center
+  display: flex
+  justify-content: center
+.v-line
+  background-color: $textPurple
+  display: inline-block
+  height: 200px
+  width: 1px
+.input
+  border: none
+  border-radius: 8px
+  padding: 10px
+  width: 100%
+  font-weight: 600
+  &::placeholder
+    color: #757575
+.info-tooltip
+  position: absolute
+  right: 0 
+.input-container
+  position: relative
+  p 
+    font-size: 11px
+    text-align: justify
+.tooltip-pdf 
+  pointer-events: auto !important;
+.transition
+  transition: all 0.3s linear
+.shadow-dl
+  box-shadow: 0px 8px 1rem rgba(0, 0, 0, 0.25)
+.rounded-dl
+  border-radius: 8px
+.dropdown-dashboard
+  align-items: center
+  background-color: $bg-blue
+  border-color: $bg-blue
+  border-radius: 50%
+  display: flex
+  justify-content: center
+  height: 25px
+  width: 21px
+  &::after
+    border: none
+    content: url('../assets/images/icons/expand-button.svg')
+    position: relative
+    top: -4px
+.white-dropdown
+  border-radius: 12px
+  color: $whiteDL
+  *
+    color: $whiteDL
+    font-size: 12px
+  .dropdown-item
+    margin: 6px 0 0 0
+    padding-left: 0
+    svg
+      margin: 0 6px 1px 0
+    &:first-child
+      margin: 0
+    &:hover
+      background-color: $bg-blue
+      color: $whiteDL
+  .dropdown-item.active, .dropdown-item:active
+    background-color: $bg-blue
+    color: $primary
+    svg
+      *
+        opacity: 1
+      .stroke
+        stroke: $primary
+      .fill
+        fill: $primary
+  .logout
+    background-color: $red
+    border-radius: 7px
+    font-weight: 700
+    text-align: center !important
+    &:hover
+      background-color: darken($red, 10)
+      color: $whiteDL
+.dashboard-options
+  align-items: center
+  display: flex
+  height: 50px
+  justify-content: center
+.react-sweet-progress-circle-outer
+  .react-sweet-progress-symbol
+    color: $whiteDL
+.swal2-popup.swal2-modal.swal2-loading.swal2-show
+  background-color: $bg-blue
+  .swal2-html-container
+    color: $whiteDL
+
+.min-h
+  min-height: 400px
+
+.report-modal
+  .modal-dialog.modal-dialog-centered
+    max-width: 1200px !important
+    width: 96% !important
+  .ag-paging-panel.ag-unselectable
+    border-top: none !important
+  .ag-header-cell-text
+    color: $textGray
+    font-family: 'Open Sans', 'Roboto'
+    font-size: 15px
+    font-weight: 700
+  .modal-header
+    border: none !important
+    padding-bottom: 0
+    .close
+      font-size: 1.6rem
+      padding-left: 0
+      position: absolute
+      right: 15px
+      top: 26px
+    .head-report
+      font-size: 17px
+      font-weight: 700
+      padding: 1rem 0 0 1rem
+    @media (max-width: 640px)
+      flex-direction: column
+.log-card
+  background-color: $bg-blue
+.scard-mw
+  max-width: 400px
+.card-align-right
+  text-align: right
+  @media (max-width: 767px)
+    text-align: center
+.card-align-left
+  text-align: left
+  @media (max-width: 767px)
+    text-align: center
+
+// Sizes
+.w-49
+  width: 49%
+.w-90
+  width: 90%
+.w-94
+  width: 94%
+
+// Align
+.jcse
+  justify-content: space-evenly
+
+// Fonts
+.fz-10
+  font-size: 10px
+.fz-11
+  font-size: 11px
+.fz-12
+  font-size: 12px
+.fz-13
+  font-size: 13px
+.fz-14
+  font-size: 14px
+.fz-15
+  font-size: 15px
+.fz-16
+  font-size: 16px
+.fz-18
+  font-size: 18px
+.fz-20
+  font-size: 20px
+.fz-25
+  font-size: 25px
+.fz-30
+  font-size: 30px
+.fz-40
+  font-size: 40px
+.fwn
+  font-weight: 400
+.fwsb
+  font-weight: 600
+.fwb
+  font-weight: 700
+.tc-primary
+  color: $primary
+.tc-black
+  color: #111111
+.tc-dgray
+  color: $dgray
+.tc-gray
+  color: $gray
+.tc-white
+  color: $whiteDL
+.tc-lgreen
+  color: $lgreen
+.tc-green
+  color: $bgGreen
+.tc-purple
+  color: $purple
+.tc-darkpurple
+  color: $bgPurple
+.tc-tpurple
+  color: $textPurple
+.tc-blue
+  color: $bg-blue
+
+
+// shapes
+.btn-pill
+  border-radius: 17px
+  font-weight: 600
+  padding: 3px 15px
+
+// Backgrounds
+.bg-blue-dl
+  background-color: $bgDataLink
+.bg-infusionsoft
+  background-color: $bgInfusion
+  border-color: $bgGreen
+.bg-blue
+  background-color: $bg-blue
+  border-color: $bg-blue
+.bg-blue-light
+  background-color: $primary
+.bg-lgren
+  background-color: $bgGreen
+  border-color: $bgGreen
+  &:hover
+    background-color: darken($bgGreen, 10)
+    border-color: darken($bgGreen, 10)
+.bg-purple
+  background-color: $bgPurple
+  border-color: $bgPurple
+  &:hover
+    background-color: darken($bgPurple, 10)
+    border-color: darken($bgPurple, 10)
+.bg-lgreen
+  background-color: $lgreen
+  border-color: $lgreen
+  &:hover
+    background-color: darken($lgreen, 10)
+    border-color: darken($lgreen, 10)
+.btn-purple
+  background-color: #232851
+  border-color: #232851
+  color: $whiteDL
+  &:hover
+    background-color: darken(#232851, 10)
+    border-color: darken(#232851, 10)
+.bg-transparent-dl
+  background-color: rgba(25,28,52, 0.9) !important
+
+// Spacing
+.ml-130
+  margin-left: 130px
+  @media (max-width: 991px)
+    margin: 0 auto
+
+// Particles
+#particles-js-bottom
+  @media (max-width: 991px)
+    bottom: -150px !important
+    margin-top: -150px
+    position: relative !important
+    right: 0 !important
+    transform: rotate(0) !important
+    width: 100% !important
+#particles-js-top
+  @media (max-width: 991px)
+    right: 0 !important
+    top: 0 !important
+    transform: rotate(0) !important
+    width: 100% !important
+
+#___reactour
+  div
+    &:nth-child(1)
+      z-index: 1!important
+
+.reactour__helper 
+  z-index: 10!important 
+
+// Graph my activuty
+.recharts-wrapper 
+  width: 100%!important 
+  .recharts-surface
+    width: 100%!important
+  .recharts-legend-wrapper
+    width: 100%!important
+.recharts-layer
+  text
+    fill: white
+
+// Intercom
+.intercom-lightweight-app-launcher
+  left: 93% 
+  // .tour-left 
+//   &:before
+//     content: ''
+//     position: absolute
+//     width: 0 
+//     height: 0
+//     border-top: 10px solid transparent
+//     border-bottom: 10px solid transparent
+//     border-right: 10px solid white
+//     left: -3%
+
+// .tour-right 
+//   &:before
+//     content: ''
+//     position: absolute
+//     width: 0 
+//     height: 0
+//     border-top: 10px solid transparent
+//     border-bottom: 10px solid transparent
+//     border-left: 10px solid white
+//     right: -3%
+
+ 
+  
+  
+  

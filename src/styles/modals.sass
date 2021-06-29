@@ -1,0 +1,118 @@
+@import './colors-datalink.sass'
+.modal-content 
+  background-color: ($bg-blue!important)
+
+.button-red
+  background-color: #BE2E51
+  border-radius: (7px!important)
+  font-weight: (700!important)
+  text-align: (center!important)
+
+.blue-button
+  border-radius: (7px!important)
+  font-weight: (700!important)
+  text-align: (center!important)
+
+.modals-user-info
+  .modal-dialog.modal-dialog-centered
+    .modal-content
+      background-color: ($bg-blue!important)
+      border-radius: 12px
+      .close
+        color: white
+      .modal-header
+        border: none
+        padding: 5px 10px 0 10px
+  &.detail-modal
+    .modal-dialog.modal-dialog-centered
+      max-width: 370px
+    .content-detail
+      text-align: center
+      padding-bottom: 30px
+      table
+        text-align: left
+        margin: 0 auto
+        tr
+          td
+            font-size: 16px
+            padding: 2px 8px
+      .user-photo
+        height: 110px
+        margin: -10px 0 25px 0
+        width: 110px
+  &.remove-modal
+    .modal-dialog.modal-dialog-centered
+      max-width: 350px
+    .content-detail
+      padding: 0.5rem 1.5rem 1.8rem 1.5rem
+      button
+        font-weight: 600
+        margin: 15px 0 0 0
+        padding: 12px 0
+        text-align: center
+        width: 100%
+      div
+        align-items: center
+        background-color: $bgDataLink
+        border-radius: 7px
+        display: flex
+        justify-content: center
+        padding: 15px 0
+        p
+          margin: 0 0 0 15px
+          span
+            display: block
+      .user-photo
+        height: 55px
+        width: 55px
+  &.remove-card-modal
+    .modal-dialog.modal-dialog-centered
+      max-width: 350px
+    .content-detail
+      padding: 0.5rem 1.5rem 1.8rem 1.5rem
+      button
+        font-weight: 600
+        margin: 15px 0 0 0
+        padding: 12px 0
+        text-align: center
+        width: 100%
+      div
+        align-items: center
+        background-color: $bgDataLink
+        border-radius: 7px
+        display: flex
+        font-weight: 600
+        justify-content: center
+        padding: 12px 0
+        .type
+          background-color: #165193
+          border-radius: 4px
+          font-size: 1rem
+          font-weight: 700
+          line-height: 1
+          margin: 0 15px 0 0
+          padding: 2px 8px 3px 8px
+  &.send-invitation-modal
+    .modal-dialog.modal-dialog-centered
+      max-width: 350px
+    .content-detail
+      padding: 0.5rem 2rem 1.5rem 2rem
+      button, input
+        border-radius: 7px
+        width: 100%
+      input
+        border: none
+        color: $dgray
+        margin: 0 0 15px 0
+        padding: 7px 15px
+  &.add-card-modal
+    .modal-dialog.modal-dialog-centered
+      max-width: 400px
+    .content-detail
+      padding: 0rem 1.5rem 1.5rem 1.5rem
+      input
+        border: none
+        border-radius: 7px
+      button
+        margin-top: 10px
+        width: 100%

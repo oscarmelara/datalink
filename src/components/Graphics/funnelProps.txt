@@ -1,0 +1,14 @@
+export interface FunnelChartProps extends EventAttributes, CategoricalChartWrapper<'centric'> {
+    width?: number;
+    height?: number;
+}
+export class FunnelChart extends React.Component<FunnelChartProps> { }
+
+
+
+export interface FunnelProps extends EventAttributes, Partial<PresentationAttributes>, Animatable { 
+    dataKey?: number | string;
+    data?: ReadonlyArray<object>;
+    isAnimationActive: boolean;
+}
+export class Funnel extends React.Component<FunnelProps> { }

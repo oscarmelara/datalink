@@ -1,0 +1,23 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+      "tslint-react"
+    ],
+    "jsRules": {},
+    "rules": {
+      "jsx-alignment": false,
+      "jsx-boolean-value": false,
+      "jsx-wrap-multiline": false,
+      "jsx-no-multiline-js": false,
+      "jsx-no-lambda": false,
+      "no-console": true,
+      "semicolon": [true, "never"],
+      "indent": [true, "spaces", 2]
+    },
+    "rulesDirectory": [],
+    "linterOptions": {
+      "exclude": [
+        "node_modules/**/*.ts"
+      ]
+    }
+}

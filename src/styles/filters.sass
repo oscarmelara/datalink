@@ -1,0 +1,68 @@
+@import './colors-datalink.sass'
+
+.filters-container
+  align-items: center  !important
+  display: flex !important
+  justify-content: space-between !important
+  margin: 30px auto 0 auto !important
+  .aux
+    display: none
+  .datepickers
+    align-items: center
+    display: flex
+    justify-content: flex-start
+  .quick-filter
+    button
+      background-color: $bg-blue
+      border-color: $bg-blue
+      color: $whiteDL
+      font-size: 13px
+      &:focus
+        box-shadow: unset !important
+      &:last-child
+        border-radius: 0 18px 18px 0
+      &:first-child
+        border-radius: 18px 0 0 18px
+      &.active,&:hover
+        background-color: $textPurple !important
+        border-color: $textPurple !important
+  @media (max-width: 1140px)
+    flex-wrap: wrap
+    justify-content: flex-end
+    .datepickers,.quick-filter
+      width: 50%
+    .select-user-global
+      margin: 10px 0 0 0
+  @media (max-width: 920px)
+    justify-content: space-between
+    .datepickers,.quick-filter,.select-user-global
+      margin: 7px 0
+      width: auto
+    .datepickers
+      order: 1
+    .quick-filter
+      order: 3
+    .select-user-global
+      order: 2
+  @media (max-width: 680px)
+    flex-direction: column
+    .datepickers
+      order: 1
+    .quick-filter
+      order: 2
+    .select-user-global
+      order: 3
+  @media (max-width: 475px)
+    .datepickers,.quick-filter,.select-user-global
+      text-align: center
+      width: 100%
+    .aux
+      display: block
+      height: 10px
+      width: 100%
+    .datepickers
+      padding-left: 20px
+      text-align: left
+      .ico-calendar
+        display: inline-block
+    

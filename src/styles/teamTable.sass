@@ -1,0 +1,59 @@
+@import './colors-datalink.sass'
+
+.info-user-table
+  align-items: center
+  display: flex
+  justify-content: space-between
+  margin-bottom: 20px
+  width: 100%
+  .info
+    align-items: center
+    display: flex
+    justify-content: space-between
+    p
+      font-weight: 600
+      margin: 0 0 0 2rem
+      span
+        color: $textPurple
+        display: block
+        font-weight: 400
+    .photo
+      align-items: center
+      display: flex
+      justify-content: flex-start
+      .manager-profile
+        height: 50px
+        width: 50px
+        z-index: 10
+      span
+        align-items: center
+        background-color: $textPurple
+        border-radius: 50%
+        display: flex
+        height: 30px
+        justify-content: center
+        margin-right: -10px
+        width: 30px
+        z-index: 30
+.team-table
+  *
+    font-size: 13px
+  tbody
+    tr
+      td
+        border: none
+        vertical-align: middle
+        .photo
+          height: 40px
+          width: 40px
+        &:first-child
+          width: 50px
+  thead
+    border: none
+    tr
+      border: none
+      border-bottom: 1px solid $textPurple !important
+      th
+        border: none
+        color: $textPurple
+        font-weight: 600
